@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#C6C7CE"
+    android:padding="6dp"
+    >
+
+
+    <com.example.goko3210.tabbarpager.RoundCircleImageView android:id="@+id/portrait"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="5px"
+        android:layout_marginTop="10dp"
+        android:contentDescription="contentDescription1"
+        app:border_width="2dp"
+        app:border_color="@color/primary_material_dark"
+        />
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#F000"
+            android:textSize="30px"
+            android:layout_marginLeft="5dp"/>
+        <TextView android:id="@+id/motto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#F000"
+            android:textSize="25px"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+</LinearLayout>
